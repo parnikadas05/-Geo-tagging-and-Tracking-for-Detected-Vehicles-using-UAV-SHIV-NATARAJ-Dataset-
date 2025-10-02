@@ -1,10 +1,10 @@
-Geo-tagging and Tracking for Detected Vehicles using UAV (SHIV-NATARAJ Dataset)
- Overview
+**Geo-tagging and Tracking for Detected Vehicles using UAV (SHIV-NATARAJ Dataset)**
+ ***Overview***
 
 This project was developed in Google Colab to detect, track, and geo-register vehicles from UAV (drone) footage.
 It combines YOLOv11n-OBB for detection, ByteTrack for tracking, and homography transformation for pixel → GPS mapping. The outputs are exported as KML files for Google Earth visualization.
 
- Key Features
+ ***Key Features***
 
 Run entirely in Google Colab (no local setup required).
 
@@ -16,7 +16,7 @@ Geo-tagging using homography transformation.
 
 Visualization of results on Google Earth.
 
-🛠️ Tech Stack
+***Tech Stack***
 
 Languages: Python, OpenCV, NumPy
 
@@ -26,14 +26,9 @@ Tools: Google Colab, Google Earth
 
 Dataset: SHIV-NATARAJ UAV Dataset
 
-Project Structure
-GeoTagging-UAV-Vehicles/
-│── UAV_GeoTagging.ipynb   # Main Colab notebook with detection, tracking, and geo-tagging
-│── results/               # Output videos & KML files
-│── requirements.txt       # Python dependencies
-│── README.md              # Project documentation
 
-How to Run (Colab)
+
+***How to Run (Colab)***
 
 Open the notebook in Google Colab:
 
